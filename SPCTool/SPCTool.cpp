@@ -23,9 +23,9 @@ int main(int argc, char* argv[])
 			<< "    -c              Create .spc from list file\n"
 			<< "    -l              Specifies list file\n"
 			<< "    -o              Specifies a folder for extraction/output file\n"
-			<< "Example:"
-			<< "spctool -e -o ui ui.spc | Extracts ui.spc to folder ui"
-			<< "spctool -c -o newui.spc -l !ui.txt ui | Creates newui.spc from folder ui and using list !ui.txt"
+			<< "Example:\n"
+			<< "spctool -e -o ui ui.spc | Extracts ui.spc to folder ui\n"
+			<< "spctool -c -o newui.spc -l !ui.txt ui | Creates newui.spc from folder ui and using list !ui.txt\n"
 			<< "List file must be in the same folder as .wavs!\n";
 		return 1;
 	}
